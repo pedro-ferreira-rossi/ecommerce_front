@@ -47,6 +47,7 @@ const CartDataForm = () => {
             required
           />
         </div>
+        <br></br>
         <div>
           <label>Itens (JSON):</label>
           <textarea
@@ -57,6 +58,7 @@ const CartDataForm = () => {
             required
           />
         </div>
+        <br></br>
         <button type="submit" className="btn btn-primary">Criar Carrinho</button>
         {responseMessage && <p>{responseMessage}</p>}
       </form>

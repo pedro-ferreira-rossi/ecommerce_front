@@ -43,7 +43,7 @@ const ProductUpdateForm = () => {
         try {
             const response = await axios.put(`http://localhost:8080/products/updateproduct?id=${id}`, formData, {
                 headers: {
-                'Content-Type': 'application/json'
+                    'Content-Type': 'application/json'
                 }
             });
             if (response.status === 200) {
